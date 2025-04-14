@@ -14,7 +14,7 @@ function AboutUs() {
       <div 
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage: 'url("images/best.jpg")',
+          backgroundImage: 'url("/best.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/40" />

@@ -85,7 +85,7 @@ function Labroatry() {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-red-100 to-pink-100 rounded-2xl blur-2xl opacity-30"></div>
               <img
-                src="images/lab.avif"
+                src="/lab.avif"
                 alt="Laboratory Process"
                 className="relative rounded-2xl shadow-2xl w-full transform hover:scale-[1.02] transition-transform duration-300"
               />
