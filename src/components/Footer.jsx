@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="flex  space-x-3">
               <div className='imglogo flex justify-center m-auto items-center  ' >
-                <img className='h-[81px]' src="images/logo.png" alt="" />
+                <img className='h-[81px]' src="/logo.png" alt="" />
                 {/* <p className='text-sm font-bold '> Gental Cure Homeopathic Clinic</p> */}
               </div>
             </div>
@@ -44,10 +44,10 @@ const Footer = () => {
               Follow Us
               <div className="flex items-center text-gray-600">
                 <div className='flex items-center mt-3 gap-1 mb-4'>
-                  <Link to="https://www.facebook.com/share/16TJU8L29J/"><img className='h-[23px] mr-2' src="images/facebook.png" alt="facebook"title='facebook icon' /></Link>
+                  <Link to="https://www.facebook.com/share/16TJU8L29J/"><img className='h-[23px] mr-2' src="/facebook.png" alt="facebook"title='facebook icon' /></Link>
 
-                  <Link to="https://www.youtube.com/channel/UChKJNJ1GCLX_zN393Jg6voA"><img className='h-[23px] mr-2' src="images/youtube.png" alt=" youtube icon" title='youtube icon' /></Link>
-                  <Link to="https://www.instagram.com/dr.kshitejbhati/?hl=en"><img className='h-[23px] mr-2' src="images/instagram.png" alt="instagram icon" title='instagram icon'/></Link>
+                  <Link to="https://www.youtube.com/channel/UChKJNJ1GCLX_zN393Jg6voA"><img className='h-[23px] mr-2' src="/youtube.png" alt=" youtube icon" title='youtube icon' /></Link>
+                  <Link to="https://www.instagram.com/dr.kshitejbhati/?hl=en"><img className='h-[23px] mr-2' src="/instagram.png" alt="instagram icon" title='instagram icon'/></Link>
                 </div>
               </div>
             </div>

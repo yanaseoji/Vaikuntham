@@ -9,7 +9,7 @@ const homesecondary = () => {
           <div className="md:w-1/2 relative">
             <div className="rounded-lg overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 ">
               <img
-                src="/images/homeo.jpg"
+                src="/homeo.jpg"
                 alt="homeopathy medicine"
                 className="w-full h-[400px] object-cover"
               />
@@ -17,7 +17,7 @@ const homesecondary = () => {
             </div>
             <div className="absolute -bottom-8 -right-8 w-48 h-48 rounded-lg overflow-hidden shadow-xl ">
               <img
-                src="images/doctor.jpg"
+                src="/doctor.jpg"
                 alt="homeopathic Professional"
                 className="w-full h-full object-cover"
               />

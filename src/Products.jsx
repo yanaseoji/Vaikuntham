@@ -58,7 +58,7 @@ const Products = () => {
                 <div className="absolute inset-0 z-0">
                     <Slider {...settings}>
                         <div className="h-full">
-                            <img className="w-full h-[600px] object-cover" src="images/img8.jpg" alt="Product 1" />
+                            <img className="w-full h-[600px] object-cover" src="/img8.jpg" alt="Product 1" />
                         </div>
                     </Slider>
                 </div>

@@ -18,7 +18,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="images/detox.png" className="img-fluid" alt="Homeopathy 1" />
+                  <img src="/detox.png" className="img-fluid" alt="Homeopathy 1" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Homeopathic Detox
@@ -32,7 +32,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img  src="images/stress-relief.png" className="img-fluid " alt="Homeopathy 2" />
+                  <img  src="/stress-relief.png" className="img-fluid " alt="Homeopathy 2" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Stress Relief
@@ -46,7 +46,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="images/insomnia.png" className="img-fluid" alt="Homeopathy 3" />
+                  <img src="/insomnia.png" className="img-fluid" alt="Homeopathy 3" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Sleep Disorders
@@ -60,7 +60,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="images/immune.png" className="img-fluid" alt="Homeopathy 4" />
+                  <img src="/immune.png" className="img-fluid" alt="Homeopathy 4" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Immune System Boost
@@ -74,7 +74,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="images/products.png" className="img-fluid" alt="Homeopathy 5" />
+                  <img src="/products.png" className="img-fluid" alt="Homeopathy 5" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Skin Care & Rejuvenation
@@ -88,7 +88,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="images/antihistamines.png" className="img-fluid" alt="Homeopathy 6" />
+                  <img src="/antihistamines.png" className="img-fluid" alt="Homeopathy 6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Allergy Relief

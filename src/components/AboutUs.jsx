@@ -72,7 +72,7 @@ function AboutUs() {
             </div> */}
             <div className="bg-white p-6 rounded-lg shadow-sm flex items-center">
               <img
-                src="images/doctor.jpg"
+                src="/doctor.jpg"
                 alt=""
                 className="w-24 h-24 rounded-full object-cover"
               />
