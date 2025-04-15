@@ -81,7 +81,7 @@ const Products = () => {
                         Shop Natural, Feel Better — The Homeopathic Way 🌿
                     </h2>
                     <p className="text-white text-lg md:text-2xl mt-4 max-w-2xl drop-shadow-md">
-                        Natural remedies, lasting wellness — curated with homeopathic care.
+                        Natural remedies, lasting wellness — curated with Homeopathic care.
                     </p>
                     <a  
                         onClick={() => {
@@ -150,9 +150,7 @@ const Products = () => {
             alt={product.heading}
             className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-110"
           />
-          <div className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm text-red-500 p-2 rounded-full shadow-md hover:bg-red-500 hover:text-white transition">
-            ❤️
-          </div>
+          
         </div>
 
         {/* Content Section */}
@@ -160,10 +158,8 @@ const Products = () => {
           <h3 className="text-xl font-bold text-gray-800 mb-1 line-clamp-1">
             {product.heading}
           </h3>
-         
           <div className="flex justify-between items-center mt-3">
             <span className="text-lg font-bold text-rose-600">₹{product.price}</span>
-           
           </div>
         </div>
       </div>

@@ -58,18 +58,6 @@ function AboutUs() {
         <div className="mb-16">
           <h2 className="text-3xl font-serif text-center mb-12">Our Expert</h2>
           <div className=" ">
-            {/* <div className="bg-white p-6 rounded-lg shadow-sm flex items-center">
-              <img
-                src=""
-                alt=""
-                className="w-24 h-24 rounded-full object-cover"
-              />
-              <div className="ml-6">
-                <h3 className="text-xl font-semibold">Dr. Sarah Johnson</h3>
-                <p className="text-green-600 mb-2">Chief Homeopathic Practitioner</p>
-                <p className="text-gray-600">20+ years experience in classical homeopathy</p>
-              </div>
-            </div> */}
             <div className="bg-white p-6 rounded-lg shadow-sm flex items-center">
               <img
                 src="/doctor.jpg"
@@ -77,7 +65,7 @@ function AboutUs() {
                 className="w-24 h-24 rounded-full object-cover"
               />
               <div className="ml-6">
-                <h3 className="text-xl font-semibold">Dr. kshitej bhati</h3>
+                <h3 className="text-xl font-semibold">Dr. Kshitej Bhati</h3>
                 <p className="text-green-600 mb-2"> Homeopathy Specialist</p>
                 <p className="text-gray-600">Expert in integrative medicine approaches</p>
               </div>
@@ -87,19 +75,20 @@ function AboutUs() {
 
         {/* Stats Section */}
         <div className="grid md:grid-cols-4 gap-8 text-center">
-          <div>
-            <Users className="w-8 h-8 text-green-600 mx-auto mb-2" />
-            <h4 className="text-2xl font-bold">1000+</h4>
-            <p className="text-gray-600">Patients Treated</p>
-          </div>
-          <div>
+        <div>
             <Clock className="w-8 h-8 text-green-600 mx-auto mb-2" />
             <h4 className="text-2xl font-bold">15+</h4>
             <p className="text-gray-600">Years Experience</p>
           </div>
           <div>
+            <Users className="w-8 h-8 text-green-600 mx-auto mb-2" />
+            <h4 className="text-2xl font-bold">20k+</h4>
+            <p className="text-gray-600">Patients Treated</p>
+          </div>
+        
+          <div>
             <Award className="w-8 h-8 text-green-600 mx-auto mb-2" />
-            <h4 className="text-2xl font-bold">10+</h4>
+            <h4 className="text-2xl font-bold">15+</h4>
             <p className="text-gray-600">Awards Won</p>
           </div>
           <div>

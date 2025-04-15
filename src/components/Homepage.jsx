@@ -21,7 +21,7 @@ const homepage = () => {
           <div className="md:w-1/2 max-w-lg w-full">
             <div className="bg-gradient-to-r from-blue-100 to-teal-100 rounded-lg shadow-xl p-8 md:p-10">
               <h3 className="text-3xl font-semibold text-gray-700 mb-6 text-center transform transition-all duration-500 hover:-translate-y-2 hover:text-indigo-600">
-                Book a Free Consultation 
+                Book a Free Consultation
               </h3>
               <form className="space-y-6">
                 <div className="flex gap-6">
@@ -54,10 +54,11 @@ const homepage = () => {
                 ></textarea>
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r border-blue-200 from-teal-100 to-blue-100 text-gray-700 py-3 px-6 rounded-md hover:from-teal-200 hover:to-blue-200 focus:outline-none transition duration-300 transform hover:scale-105"
+                  className="w-full bg-gradient-to-r border-2 border-teal-300 from-teal-100 to-blue-100 text-gray-700 py-3 px-6 rounded-md focus:outline-none transition duration-300 transform hover:scale-105 hover:bg-opacity-90 shadow-lg hover:shadow-2xl"
                 >
                   Book Now
                 </button>
+
               </form>
             </div>
           </div>

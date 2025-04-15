@@ -10,7 +10,7 @@ const Procedures = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Homeopathy Procedures</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We offer holistic homeopathic treatments tailored to your individual needs, focusing on natural healing methods.
+              We offer holistic Homeopathic treatments tailored to your individual needs, focusing on natural healing methods.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ const Procedures = () => {
                   Stress Relief
                 </h3>
                 <p className="text-gray-600">
-                  Natural remedies for stress relief using homeopathic methods that promote mental clarity and emotional well-being.
+                  Natural remedies for stress relief using Homeopathic methods that promote mental clarity and emotional well-being.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Procedures = () => {
                   Immune System Boost
                 </h3>
                 <p className="text-gray-600">
-                  Strengthen your immune system naturally with homeopathic remedies that support overall health.
+                  Strengthen your immune system naturally with Homeopathic remedies that support overall health.
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Procedures = () => {
                   Skin Care & Rejuvenation
                 </h3>
                 <p className="text-gray-600">
-                  Improve your skin health with homeopathic remedies that target acne, eczema, and other skin issues.
+                  Improve your skin health with Homeopathic remedies that target acne, eczema, and other skin issues.
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Procedures = () => {
                   Allergy Relief
                 </h3>
                 <p className="text-gray-600">
-                  Our homeopathic allergy treatments help alleviate symptoms like sneezing, congestion, and itchy eyes.
+                  Our Homeopathic allergy treatments help alleviate symptoms like sneezing, congestion, and itchy eyes.
                 </p>
               </div>
             </div>

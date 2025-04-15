@@ -27,15 +27,15 @@ const homesecondary = () => {
           {/* Right Section - Content */}
           <div className="md:w-1/2 mt-16 md:mt-0">
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              Committed To homeopathy Excellence
+              Committed To Homeopathy Excellence
             </h2>
             <div className="space-y-4 text-gray-600">
               <p>
-              At our clinic, we are dedicated to delivering the highest standards of homeopathic care. 
+              At our clinic, we are dedicated to delivering the highest standards of Homeopathic care. 
               Our experienced team blends tradition with innovation to offer natural, personalized treatments. 
               Your health and well-being are our top priority — trust us to guide you on your journey to lasting wellness.
               </p>
-             <p>We strive to set the gold standard in homeopathic care — offering expert treatments, compassionate service, and genuine results you can trust.</p>
+             <p>We strive to set the gold standard in Homeopathic care — offering expert treatments, compassionate service, and genuine results you can trust.</p>
               <Link to="/AboutUs">
               <button className="mt-4 bg-blue-300 hover:bg-blue-500 text-white px-8 py-3 rounded-lg transition duration-300 transform hover:scale-105 ">
                 Know More

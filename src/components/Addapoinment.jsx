@@ -40,11 +40,11 @@ const Addapoinment = () => {
                 <span className="mt-2 text-sm text-gray-600">Years Experience</span>
               </div>
               <div className="flex flex-col items-center">
-                <span className="text-3xl font-bold ">1000+</span>
+                <span className="text-3xl font-bold ">20k+</span>
                 <span className="mt-2 text-sm text-gray-600">Happy Patients</span>
               </div>
               <div className="flex flex-col items-center">
-                <span className="text-3xl font-bold ">10+</span>
+                <span className="text-3xl font-bold ">15+</span>
                 <span className="mt-2 text-sm text-gray-600">Awards Wins</span>
               </div>
               <div className="flex flex-col items-center">

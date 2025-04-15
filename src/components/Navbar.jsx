@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Products from '../Products';
-
+import { useLocation } from 'react-router-dom';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const currentPath = location.pathname;
 
+  const baseClasses = "rounded-md px-3 py-2 text-sm font-medium transition";
+
+  const navItems = [
+    { name: "Dashboard", path: "/" },
+    { name: "Laboratory", path: "/Labroatry" },
+    { name: "Products", path: "/Products" },
+    { name: "About Us", path: "/AboutUs" },
+  ];
   return (
     
 
@@ -60,14 +70,23 @@ const Navbar = () => {
                </div>
 
 
-            <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4 justify-center items-center my-3">
-                <Link to={'/'} className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-700 hover:text-white">Dashboard</Link>
-                <Link to="/Labroatry" className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-700 hover:text-white">Laboratory</Link>
-                <Link to={'/Products'} className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-700 hover:text-white">Products</Link>
-                <Link to="/AboutUs" className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-700 hover:text-white">AboutUs</Link>
-              </div>
-            </div>
+             <div className="hidden sm:ml-6 sm:block">
+      <div className="flex space-x-4 justify-center items-center my-3">
+        {navItems.map((item) => (
+          <Link
+            key={item.name}
+            to={item.path}
+            className={`${baseClasses} ${
+              currentPath === item.path
+                ? "bg-gray-700 text-white"
+                : "text-gray-600 hover:bg-gray-700 hover:text-white"
+            }`}
+          >
+            {item.name}
+          </Link>
+        ))}
+      </div>
+    </div>
           </div>
         </div>
       </div>
