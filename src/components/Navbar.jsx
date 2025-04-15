@@ -6,7 +6,27 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    
+
+
     <nav className="bg-gray-50 h-[8vh]">
+      {/* <a
+  href="https://wa.me/91 9351414903" 
+  className="fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition duration-300 animate-bounce"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-6 w-6"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M20.52 3.48A11.938 11.938 0 0012 0C5.37 0 0 5.37 0 12c0 2.11.55 4.19 1.59 6.01L0 24l6.25-1.64A11.938 11.938 0 0012 24c6.63 0 12-5.37 12-12 0-3.19-1.24-6.2-3.48-8.52zM12 22c-1.72 0-3.41-.44-4.91-1.27l-.35-.19-3.7.97.99-3.61-.22-.37A9.926 9.926 0 012 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.19-7.27l-2.69-.77a1 1 0 00-.96.26l-.6.61a8.08 8.08 0 01-3.7-3.7l.61-.6a1 1 0 00.26-.96l-.77-2.69a1 1 0 00-1.19-.71c-1.04.23-2.13 1.1-2.13 2.25 0 4.42 3.58 8 8 8 1.15 0 2.02-1.09 2.25-2.13a1 1 0 00-.71-1.19z" />
+  </svg>
+</a> */}
+
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <div className="relative flex h-16 items-center justify-between ">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

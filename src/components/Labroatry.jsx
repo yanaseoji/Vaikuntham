@@ -17,62 +17,71 @@ function Labroatry() {
           backgroundImage: 'url("https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2000")'
         }}
       >
-       <div className="h-full inset-0 bg-gradient-to-r from-red-900/80 to-black/60 ">
+        <div className="h-full inset-0 bg-gradient-to-r from-red-900/80 to-black/60 ">
           <div className="container mx-auto px-6 h-full flex items-center">
             <div className="text-white max-w-2xl">
               <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
-                Advanced Homeopathic Laboratory
+                Advanced Diagnostic Laboratory
               </h1>
               <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
                 Where tradition meets modern science in crafting precise homeopathic remedies
               </p>
-              <button className="mt-8 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-red-600/20">
+              <button
+                className="mt-8 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-red-600/20"
+                onClick={() => {
+                  window.scrollTo({
+                    top: window.innerHeight * 0.9,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 Explore Our Services
               </button>
+
             </div>
+          </div>
         </div>
-       </div>
       </div>
 
       {/* Services Grid */}
       <div className="container mx-auto px-6 py-24">
-        <h2 className="text-4xl font-bold text-center mb-4 text-red-900">Our Laboratory Services</h2>
-        <p className="text-gray-600 text-center mb-16 text-lg max-w-2xl mx-auto">
-          Discover our comprehensive range of laboratory services designed to ensure the highest quality in homeopathic medicine
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard
-            icon={<Microscope className="w-10 h-10" />}
-            title="Potency Analysis"
-            description="Advanced testing to ensure precise potency levels in all preparations"
-          />
-          <ServiceCard
-            icon={<Flask className="w-10 h-10" />}
-            title="Mother Tincture Preparation"
-            description="Standardized processes for creating high-quality mother tinctures"
-          />
-          <ServiceCard
-            icon={<TestTubes className="w-10 h-10" />}
-            title="Dilution Testing"
-            description="Accurate dilution verification using modern spectroscopic methods"
-          />
-          <ServiceCard
-            icon={<Beaker className="w-10 h-10" />}
-            title="Raw Material Testing"
-            description="Comprehensive analysis of source materials for purity"
-          />
-          <ServiceCard
-            icon={<ShieldCheck className="w-10 h-10" />}
-            title="Quality Assurance"
-            description="Rigorous quality control processes following international standards"
-          />
-          <ServiceCard
-            icon={<FileCheck className="w-10 h-10" />}
-            title="Documentation"
-            description="Detailed documentation and certification of all preparations"
-          />
-        </div>
-      </div>
+  <h2 className="text-4xl font-bold text-center mb-4 text-red-900">Our Laboratory Services</h2>
+  <p className="text-gray-600 text-center mb-16 text-lg max-w-2xl mx-auto">
+    Explore our wide range of diagnostic services ensuring accurate and reliable health assessments for patients of all ages.
+  </p>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <ServiceCard
+      icon={<Microscope className="w-10 h-10" />}
+      title="Complete Blood Count (CBC)"
+      description="Comprehensive analysis of red cells, white cells, and platelets to detect infections, anemia, and more."
+    />
+    <ServiceCard
+      icon={<Flask className="w-10 h-10" />}
+      title="Liver Function Test (LFT)"
+      description="Assesses liver health by measuring enzymes, proteins, and bilirubin in the blood."
+    />
+    <ServiceCard
+      icon={<TestTubes className="w-10 h-10" />}
+      title="Kidney Function Test (KFT)"
+      description="Evaluates how well the kidneys are working by testing urea, creatinine, and electrolytes."
+    />
+    <ServiceCard
+      icon={<Beaker className="w-10 h-10" />}
+      title="Thyroid Profile (T3, T4, TSH)"
+      description="Helps diagnose thyroid imbalances affecting metabolism and energy levels."
+    />
+    <ServiceCard
+      icon={<ShieldCheck className="w-10 h-10" />}
+      title="Blood Sugar Test"
+      description="Includes fasting, random, and postprandial glucose tests for diabetes monitoring."
+    />
+    <ServiceCard
+      icon={<FileCheck className="w-10 h-10" />}
+      title="Urine Routine & Microscopy"
+      description="Screens for urinary tract infections, kidney disorders, and metabolic conditions."
+    />
+  </div>
+</div>
 
       {/* Process Section */}
       <div className="bg-gradient-to-b from-red-50 to-white py-24">
