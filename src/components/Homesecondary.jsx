@@ -37,7 +37,7 @@ const homesecondary = () => {
               </p>
              <p>We strive to set the gold standard in Homeopathic care — offering expert treatments, compassionate service, and genuine results you can trust.</p>
               <Link to="/AboutUs">
-              <button className="mt-4 bg-blue-300 hover:bg-blue-500 text-white px-8 py-3 rounded-lg transition duration-300 transform hover:scale-105 ">
+              <button className="mt-4 bg-blue-300 cursor-pointer hover:bg-blue-500 text-white px-8 py-3 rounded-lg transition duration-300 transform hover:scale-105 ">
                 Know More
               </button>
               </Link>

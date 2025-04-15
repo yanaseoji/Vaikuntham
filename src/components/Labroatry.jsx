@@ -24,10 +24,10 @@ function Labroatry() {
                 Advanced Diagnostic Laboratory
               </h1>
               <p className="text-xl md:text-2xl opacity-90 leading-relaxed">
-                Where tradition meets modern science in crafting precise homeopathic remedies
+                Where tradition meets modern science in crafting precise Homeopathic remedies
               </p>
               <button
-                className="mt-8 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-red-600/20"
+                className="mt-8 bg-red-600 cursor-pointer hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-red-600/20"
                 onClick={() => {
                   window.scrollTo({
                     top: window.innerHeight * 0.9,
@@ -88,7 +88,7 @@ function Labroatry() {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-4 text-red-900">Our Laboratory Process</h2>
           <p className="text-gray-600 text-center mb-16 text-lg max-w-2xl mx-auto">
-            Experience our meticulous approach to homeopathic medicine preparation
+            Experience our meticulous approach to Homeopathic medicine preparation
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative">
@@ -130,7 +130,7 @@ function Labroatry() {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-4 text-red-900">Our Quality Standards</h2>
           <p className="text-gray-600 text-center mb-16 text-lg max-w-2xl mx-auto">
-            We maintain the highest standards in homeopathic medicine preparation
+            We maintain the highest standards in Homeopathic medicine preparation
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="bg-white p-10 rounded-2xl shadow-[0_0_50px_rgba(0,0,0,0.1)] hover:shadow-[0_0_50px_rgba(239,68,68,0.15)] transition-all duration-300 hover:-translate-y-1">

@@ -54,7 +54,7 @@ const homepage = () => {
                 ></textarea>
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r border-2 border-teal-300 from-teal-100 to-blue-100 text-gray-700 py-3 px-6 rounded-md focus:outline-none transition duration-300 transform hover:scale-105 hover:bg-opacity-90 shadow-lg hover:shadow-2xl"
+                  className="w-full bg-gradient-to-r cursor-pointer border-2 border-teal-300 from-teal-100 to-blue-100 text-gray-700 py-3 px-6 rounded-md focus:outline-none transition duration-300 transform hover:scale-105 hover:bg-opacity-90 shadow-lg hover:shadow-2xl"
                 >
                   Book Now
                 </button>
