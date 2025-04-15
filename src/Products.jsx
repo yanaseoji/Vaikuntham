@@ -16,7 +16,7 @@ const Products = () => {
         slidesToScroll: 1,
         arrows: false,
     };
-
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -137,26 +137,40 @@ const Products = () => {
 
                     {/* Products Section */}
                     <div className="w-full lg:w-3/4">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                            {products.map((product, index) => (
-                                <div
-                                    key={index}
-                                    className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300"
-                                >
-                                    <img
-                                        className="w-full h-48 object-cover"
-                                        src={`https://rajpurohitastro.com/shipshop/${product.image}`}
-                                        alt={product.heading}
-                                    />
-                                    <div className="p-4">
-                                        <h3 className="font-semibold text-lg text-gray-800 mb-2">{product.heading}</h3>
-                                        <p className="text-sm text-gray-600">Price: ₹{product.price}</p>
-                                        <p className="text-sm text-gray-500">{product.shopName}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    {products.map((product, index) => (
+      <div
+        key={index}
+        className="bg-white/60 backdrop-blur-lg border border-white/20 shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(255,0,100,0.25)] rounded-3xl overflow-hidden transition-transform transform hover:-translate-y-2 duration-300"
+      >
+        {/* Image Section */}
+        <div className="relative group overflow-hidden">
+          <img
+            src={`https://rajpurohitastro.com/shipshop/${product.image}`}
+            alt={product.heading}
+            className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm text-red-500 p-2 rounded-full shadow-md hover:bg-red-500 hover:text-white transition">
+            ❤️
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className="p-5">
+          <h3 className="text-xl font-bold text-gray-800 mb-1 line-clamp-1">
+            {product.heading}
+          </h3>
+         
+          <div className="flex justify-between items-center mt-3">
+            <span className="text-lg font-bold text-rose-600">₹{product.price}</span>
+           
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
 
                 </div>
             </div>
