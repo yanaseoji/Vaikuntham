@@ -1,35 +1,33 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from 'react'
 import './App.css'
-import Homepage from './components/Homepage'
-import Header from './components/Navbar'
-import Footer from './components/Footer'
-import Products from './Products'
-import { ProductsDetails } from './ProductsDetails'
-import Labroatry from './components/Labroatry'
-import AboutUs from './components/AboutUs'
+import Homepage from './assets/pages/home/Home'
+import About from './assets/pages/about/About'
+import Contact from './assets/pages/contact/Contact'
+import Finance from './assets/pages/services/finance/Finance'
+import Header from './assets/components/Header'
+import Footer from './assets/components/Footer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}, [])
 
   return (
     <>
-      <div>                                                                                                                                                                         
-        <Router>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/Products" element={<Products />} />
-            <Route path="/ProductsDetails" element={<ProductsDetails />} />
-            <Route path="/Labroatry" element={<Labroatry />} />
-            <Route path="/AboutUs" element={<AboutUs />} />
-          </Routes>
-          <Footer />
-        </Router>
-      </div>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/finance" element={<Finance />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
   )
 }
