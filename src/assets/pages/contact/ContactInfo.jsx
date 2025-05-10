@@ -16,7 +16,7 @@ const Procedures = () => {
                         <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                                    <img src="./src/assets/images/contact-page-images/phone.png" className="img-fluid" alt="call" />
+                                    <img src="/images/contact-page-images/phone.png" className="img-fluid" alt="call" />
                                 </div>
                                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                                     Call us
@@ -30,7 +30,7 @@ const Procedures = () => {
                         <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                                    <img src="./src/assets/images/contact-page-images/email.png" className="img-fluid " alt="email" />
+                                    <img src="/images/contact-page-images/email.png" className="img-fluid " alt="email" />
                                 </div>
                                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                                     Email us
@@ -44,7 +44,7 @@ const Procedures = () => {
                         <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                                    <img src="./src/assets/images/contact-page-images/road.png" className="img-fluid" alt="location" />
+                                    <img src="/images/contact-page-images/road.png" className="img-fluid" alt="location" />
                                 </div>
                                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                                     Our location
@@ -58,7 +58,7 @@ const Procedures = () => {
                         <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                                    <img src="./src/assets/images/contact-page-images/network.png" className="img-fluid" alt="network" />
+                                    <img src="/images/contact-page-images/network.png" className="img-fluid" alt="network" />
                                 </div>
                                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                                     Connect on

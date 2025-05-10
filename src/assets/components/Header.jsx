@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
 
-    <nav className="bg-gray-50 py-1 fixed top-0 w-full z-50 capitalize">
+    <nav className="bg-gray-50 py-1 fixed top-0 w-full z-80 capitalize">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex shrink-0 items-center">
               <Link to={'/'}
               >
-                <img className="h-10 w-auto " src="./src/assets/images/logo/Vaikuntham-Logo.png" alt="Your Company" />
+                <img className="h-10 w-auto " src="/images/logo/Vaikuntham-Logo.png" alt="Your Company" />
               </Link>
             </div>
 

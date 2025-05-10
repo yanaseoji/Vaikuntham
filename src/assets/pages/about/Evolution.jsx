@@ -19,7 +19,7 @@ function Evolution() {
             </div>
             <div className='px-0 sm:px-10 py-0 sm:py-10'>
                 <div className='relative h-full before:content-[] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black/15 before:rounded-2xl shadow-xl'>
-                    <img src="./src/assets/images/about-page-images/evolution.jpg" alt="evolution"  className='rounded-2xl h-full z-20'/>
+                    <img src="/images/about-page-images/evolution.jpg" alt="evolution"  className='rounded-2xl h-full z-20'/>
                 </div>
             </div>
         </div>

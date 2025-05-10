@@ -4,27 +4,27 @@ function Services() {
     const services = [
         {
             title: "Finance",
-            icon: "./src/assets/images/home-images/finance-icon.png",
+            icon: "/images/home-images/finance-icon.png",
             description: 'Unlock your financial potential with expert consultancy services tailored to your unique goals. Our seasoned advisors provide strategic guidance, helping you navigate investments, tax planning, and wealth management with confidence. Trust us to turn complex financial decisions into clear, actionable steps for lasting success. Partner with us and secure your financial future today!',
-            image: './src/assets/images/home-images/finance.jpg',
+            image: '/images/home-images/finance.jpg',
         },
         {
             title: "Digital Marketing",
-            icon: "./src/assets/images/home-images/digital-icon.png",
+            icon: "/images/home-images/digital-icon.png",
             description: 'Unlock your financial potential with expert consultancy services tailored to your unique goals. Our seasoned advisors provide strategic guidance, helping you navigate investments, tax planning, and wealth management with confidence. Trust us to turn complex financial decisions into clear, actionable steps for lasting success. Partner with us and secure your financial future today!',
-            image: './src/assets/images/home-images/digital.jpeg',
+            image: '/images/home-images/digital.jpeg',
         },
         {
             title: "Healthcare",
-            icon: "./src/assets/images/home-images/healthcare-icon.png",
+            icon: "/images/home-images/healthcare-icon.png",
             description: 'Unlock your financial potential with expert consultancy services tailored to your unique goals. Our seasoned advisors provide strategic guidance, helping you navigate investments, tax planning, and wealth management with confidence. Trust us to turn complex financial decisions into clear, actionable steps for lasting success. Partner with us and secure your financial future today!',
-            image: './src/assets/images/home-images/healthcare.jpg',
+            image: '/images/home-images/healthcare.jpg',
         },
         {
             title: "Softaware development",
-            icon: "./src/assets/images/home-images/software-icon.png",
+            icon: "/images/home-images/software-icon.png",
             description: 'Unlock your financial potential with expert consultancy services tailored to your unique goals. Our seasoned advisors provide strategic guidance, helping you navigate investments, tax planning, and wealth management with confidence. Trust us to turn complex financial decisions into clear, actionable steps for lasting success. Partner with us and secure your financial future today!',
-            image: './src/assets/images/home-images/software.jpeg',
+            image: '/images/home-images/software.jpeg',
         },
     ]
 
@@ -50,7 +50,7 @@ function Services() {
                                 </p>
                                 <button className='capitalize border-2 duration-150 hover:bg-secondary cursor-pointer border-secondary text-sm sm:text-base py-2 px-4 rounded-lg font-normal sm:font-semibold flex justify-center items-center gap-1 hover:gap-2'>
                                     <span>Get started</span>
-                                    <img src="./src/assets/images/home-images/arrow.png" alt="arrow" className='w-[25px] sm:w-[35px] h-[20px] sm:h-[30px]'/>
+                                    <img src="/images/home-images/arrow.png" alt="arrow" className='w-[25px] sm:w-[35px] h-[20px] sm:h-[30px]'/>
                                 </button>
                             </div>
                             <div className='rounded-sm'>

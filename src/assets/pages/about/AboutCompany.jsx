@@ -10,7 +10,7 @@ function AboutCompany() {
                     <div className="md:w-1/2 relative">
                         <div className="rounded-lg overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 ">
                             <img
-                                src="./src/assets/images/home-images/about-image.jpeg"
+                                src="/images/home-images/about-image.jpeg"
                                 alt="about"
                                 className="w-full h-[400px] object-cover"
                             />
@@ -30,19 +30,19 @@ function AboutCompany() {
                             </p>
                             <div className='grid grid-cols-1 lg:grid-cols-2'>
                                 <div className='my-2 flex items-center gap-2 '>
-                                    <img src="./src/assets/images/home-images/experience.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
+                                    <img src="/images/home-images/experience.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
                                     <span>Expertise delivered</span>
                                 </div>
                                 <div className='my-2 flex items-center gap-2 '>
-                                    <img src="./src/assets/images/home-images/idea.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
+                                    <img src="/images/home-images/idea.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
                                     <span>Solutions crafted for success</span>
                                 </div>
                                 <div className='my-2 flex items-center gap-2 '>
-                                    <img src="./src/assets/images/home-images/achievement.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
+                                    <img src="/images/home-images/achievement.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
                                     <span>Turning insights into achievements</span>
                                 </div>
                                 <div className='my-2 flex items-center gap-2 '>
-                                    <img src="./src/assets/images/home-images/success.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
+                                    <img src="/images/home-images/success.png" alt="" className='w-[50px] h-[50px] rounded-full p-2 bg-secondary' />
                                     <span>Strategic solutions for your success</span>
                                 </div>
                             </div>

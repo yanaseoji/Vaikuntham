@@ -20,22 +20,22 @@ function Reviews() {
     const reviews = [
         {
             team: "name1",
-            image: './src/assets/images/about-page-images/member1.jpg',
+            image: '/images/about-page-images/member1.jpg',
             post: 'Lorem'
         },
         {
             team: "name2",
-            image: './src/assets/images/about-page-images/member1.jpg',
+            image: '/images/about-page-images/member1.jpg',
             post: 'Lorem'
         },
         {
             team: "name3",
-            image: './src/assets/images/about-page-images/member1.jpg',
+            image: '/images/about-page-images/member1.jpg',
             post: 'Lorem'
         },
         {
             team: "name4",
-            image: './src/assets/images/about-page-images/member1.jpg',
+            image: '/images/about-page-images/member1.jpg',
             post: 'Lorem'
         },
     ]

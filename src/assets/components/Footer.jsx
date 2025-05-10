@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="flex  space-x-3">
               <div className='imglogo flex justify-center m-auto items-center  ' >
-                <img className='h-[45px]' src="./src/assets/images/logo/Vaikuntham-Logo.png" alt="logo" />
+                <img className='h-[45px]' src="/images/logo/Vaikuntham-Logo.png" alt="logo" />
               </div>
             </div>
             <div>

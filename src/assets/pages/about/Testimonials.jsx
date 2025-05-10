@@ -9,7 +9,7 @@ function CustomSlides({ review }) {
         <div className='w-full grid grid-rows-1 bg-gray-100 rounded-xl py-5 md:py-4 px-5 cursor-pointer hover:bg-gray-200'>
             <div className='flex gap-2 px-0 xl:px-5'>
                 <div className='min-w-[30px] w-1/3 md:w-1/2'>
-                    <img src="./src/assets/images/home-images/quotes.png" alt="quotes-icon" />
+                    <img src="/images/home-images/quotes.png" alt="quotes-icon" />
                 </div>
                 <p className='pb-5 h-fit text-lg md:text-sm xl:text-base text-secondary tracking-[1px] border-b border-b-gray-300'>{reviews[2]}</p>
             </div>
@@ -25,27 +25,27 @@ function Reviews() {
     const reviews = [
         {
             clients: "name1",
-            image: './src/assets/images/home-images/profile.png',
+            image: '/images/home-images/profile.png',
             text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum alias quod exercitationem at voluptatum similique voluptates, magnam sunt, animi modi incidunt quos cumque eius pariatur optio distinctio corporis error laborum.'
         },
         {
             clients: "name2",
-            image: './src/assets/images/home-images/profile.png',
+            image: '/images/home-images/profile.png',
             text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum alias quod exercitationem at voluptatum similique voluptates, magnam sunt, animi modi incidunt quos cumque eius pariatur optio distinctio corporis error laborum.'
         },
         {
             clients: "name3",
-            image: './src/assets/images/home-images/profile.png',
+            image: '/images/home-images/profile.png',
             text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum alias quod exercitationem at voluptatum similique voluptates, magnam sunt, animi modi incidunt quos cumque eius pariatur optio distinctio corporis error laborum.'
         },
         {
             clients: "name4",
-            image: './src/assets/images/home-images/profile.png',
+            image: '/images/home-images/profile.png',
             text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum alias quod exercitationem at voluptatum similique voluptates, magnam sunt, animi modi incidunt quos cumque eius pariatur optio distinctio corporis error laborum.'
         },
         {
             clients: "name5",
-            image: './src/assets/images/home-images/profile.png',
+            image: '/images/home-images/profile.png',
             text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum alias quod exercitationem at voluptatum similique voluptates, magnam sunt, animi modi incidunt quos cumque eius pariatur optio distinctio corporis error laborum.'
         },
     ]
@@ -70,7 +70,7 @@ function Reviews() {
                 <div className='w-full md:w-1/2'>
                     <div className="relative rounded-lg overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 ">
                         <img
-                            src="./src/assets/images/about-page-images/testimonials.jpg"
+                            src="/images/about-page-images/testimonials.jpg"
                             alt="about"
                             className="w-full h-[400px] object-cover"
                         />

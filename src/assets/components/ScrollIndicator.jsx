@@ -64,7 +64,7 @@ export default function ScrollIndicator({ sections }) {
     }, [activeLink]);
 
     return (
-        <div className='fixed top-1/3 right-5 hidden sm:flex flex-col gap-8 z-20'>
+        <div className='fixed top-1/3 right-5 hidden sm:flex flex-col gap-8 z-70'>
             {
                 sections.map((section, index) => (
                     <a onClick={() => scrollToSection(section)} key={index} before={`${section}`} className={`relative w-[10px] h-[10px] ${activeLink === section ? 'bg-secondary before:content-[attr(before)] before:w-fit before:py-1 before:px-3 before:rounded-sm before:text-[12px] before:font-semibold before:tracking-[1px] before:capitalize before:absolute before:top-0 before:right-3 before:z-30 before:bg-secondary before:duration-350' : 'bg-transparent'} ${isVisible? 'before:opacity-100' : 'before:opacity-0'} hover:before:opacity-100 border border-secondary rounded-full cursor-pointer`}></a>

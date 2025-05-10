@@ -18,7 +18,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="./src/assets/images/home-images/feature-icon1.svg" className="img-fluid" alt="Homeopathy 1" />
+                  <img src="/images/home-images/feature-icon1.svg" className="img-fluid" alt="Homeopathy 1" />
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                   Quick Solutions
@@ -32,7 +32,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="./src/assets/images/home-images/feature-icon2.svg" className="img-fluid " alt="Homeopathy 2" />
+                  <img src="/images/home-images/feature-icon2.svg" className="img-fluid " alt="Homeopathy 2" />
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                   Expert advice
@@ -46,7 +46,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="./src/assets/images/home-images/feature-icon3.svg" className="img-fluid" alt="Homeopathy 3" />
+                  <img src="/images/home-images/feature-icon3.svg" className="img-fluid" alt="Homeopathy 3" />
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                   Strategic planning
@@ -60,7 +60,7 @@ const Procedures = () => {
             <div className="bg-white rounded-xl border border-secondary px-5 py-8 transition-transform duration-300 hover:scale-105">
               <div className="flex flex-col items-center text-center">
                 <div className="w-25 h-25 bg-green-100 rounded-full flex items-center justify-center mb-4 p-4">
-                  <img src="./src/assets/images/home-images/feature-icon4.svg" className="img-fluid" alt="Homeopathy 4" />
+                  <img src="/images/home-images/feature-icon4.svg" className="img-fluid" alt="Homeopathy 4" />
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-3 capitalize">
                   Efficient operations
