@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex shrink-0 items-center">
               <Link to={'/'}
               >
-                <img className="h-10 w-auto " src="./images/logo/Vaikuntham-Logo.png" alt="Your Company" />
+                <img className="h-10 w-auto " src="images/logo/Vaikuntham-Logo.png" alt="Your Company" />
               </Link>
             </div>
 
