@@ -3,7 +3,6 @@ import Slider from "react-slick";
 
 function CustomSlides({ review }) {
     let reviews = Object.values(review)
-    console.log(reviews)
 
     return (
         <div className='w-full grid grid-rows-1 bg-gray-100 rounded-xl py-5 md:py-4 px-5 cursor-pointer hover:bg-gray-200'>
@@ -51,7 +50,6 @@ function Reviews() {
     ]
 
     const [slides, setSlides] = useState(reviews.map((review, index) => (index)));
-    console.log(slides.length)
 
     var settings = {
         dots: true,

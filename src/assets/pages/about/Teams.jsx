@@ -41,7 +41,6 @@ function Reviews() {
     ]
 
     const [slides, setSlides] = useState(reviews.map((review, index) => (index)));
-    console.log(slides.length)
 
     var settings = {
         dots: true,
