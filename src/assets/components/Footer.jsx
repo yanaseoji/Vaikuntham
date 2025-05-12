@@ -24,7 +24,7 @@ const Footer = () => {
             <div>
               <h3 className="text-primary font-semibold mb-4">Reach Us</h3>
               <div className="flex items-start space-x-2 text-secondary">
-                <p>Gentle Cure Homeopathic Clinic
+                <p>Vaikuntham
                   Shop no. 37, Opposite MDM Hospital Rd, Shastri Nagar, Jodhpur</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
               </p>
 
               <p className="text-primary text-sm mt-4 md:mt-0 font-bold">
-                Powered by Gental Cure Homeopathic Clinic
+                Powered by Vaikuntham
               </p>
             </div>
           </div>

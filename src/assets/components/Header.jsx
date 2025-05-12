@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const location = useLocation();
   const currentPath = location.pathname;
 
@@ -52,29 +53,44 @@ const Navbar = () => {
 
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4 items-center my-3">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.name}
-                    to={item.path}
-                    className={`${baseClasses} ${currentPath === item.path
-                      ? "bg-primary text-white"
-                      : "text-secondary hover:bg-gray-700 hover:text-white"
-                      }`}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+                <Link
+                  to='/'
+                  className={`${baseClasses} ${currentPath === '/'
+                    ? "bg-primary text-white"
+                    : "text-secondary hover:bg-gray-700 hover:text-white"
+                    }`}
+                >
+                  Home
+                </Link>
                 <span className={`${baseClasses} relative text-secondary cursor-pointer`}>
-                  <span onClick={() => setIsMenuOpen(!isMenuOpen)} className='w-full flex justify-center items-center gap-2'>
+                  <span onClick={() => setIsDropDownOpen(!isDropDownOpen)} className='w-full flex justify-center items-center gap-2'>
                     <span>Services</span>
-                    <span className={`text-xl h-[24px] text-center duration-200 ${isMenuOpen ? 'rotate-x-0' : 'rotate-x-180'}`}>^</span></span>
-                  <ul className={`${isMenuOpen ? 'flex' : 'hidden'} w-fit absolute top-full left-0 px-5 py-5 flex-col gap-5 mt-4 rounded-sm bg-gray-200`}>
+                    <span className={`text-xl h-[24px] text-center duration-200 ${isDropDownOpen ? 'rotate-x-0' : 'rotate-x-180'}`}>^</span></span>
+                  <ul className={`${isDropDownOpen ? 'flex' : 'hidden'} w-fit absolute top-full left-0 px-5 py-5 flex-col gap-5 mt-4 rounded-sm bg-gray-200`}>
                     <li className='absolute w-[10px] h-[10px] -top-1/12 left-0 border-t-[15px] border-t-transparent border-l-[18px] border-l-gray-200 border-b-[0px] border-b-transparent border-r-[10px] border-r-transparent'></li>
                     <li className='py-1 border-b border-b-gray-400 cursor-pointer'><Link to='/finance'>Finance</Link></li>
                     <li className='py-1 border-b border-b-gray-400 cursor-pointer'><Link>Marketing & Software</Link></li>
                     <li className='py-1 border-b border-b-gray-400 cursor-pointer'><Link>Healthcare</Link></li>
                   </ul>
                 </span>
+                <Link
+                  to='/about'
+                  className={`${baseClasses} ${currentPath === '/about'
+                    ? "bg-primary text-white"
+                    : "text-secondary hover:bg-gray-700 hover:text-white"
+                    }`}
+                >
+                  About
+                </Link>
+                <Link
+                  to='/contact'
+                  className={`${baseClasses} ${currentPath === '/contact'
+                    ? "bg-primary text-white"
+                    : "text-secondary hover:bg-gray-700 hover:text-white"
+                    }`}
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -88,28 +104,21 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(false)}
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-700 hover:text-white"
           >
-            Dashboard
+            Home
           </Link>
           <Link
-            to={"/Labroatry"}
+            to={"/about"}
             onClick={() => setIsMenuOpen(false)}
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-700 hover:text-white"
           >
-            Laboratory
+            About
           </Link>
           <Link
-            to={'/Products'}
+            to={'/contact'}
             onClick={() => setIsMenuOpen(false)}
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-700 hover:text-white"
           >
-            Products
-          </Link>
-          <Link
-            to={"/AboutUs"}
-            onClick={() => setIsMenuOpen(false)}
-            className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-700 hover:text-white"
-          >
-            About us
+            Contact
           </Link>
         </div>
       </div>

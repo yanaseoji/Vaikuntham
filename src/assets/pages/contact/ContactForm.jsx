@@ -19,6 +19,7 @@ function Evolution() {
                     </select>
                     <textarea rows='10' placeholder='Write something...' className='md:h-auto col-span-1 lg:col-span-2 border-b border-gray-400 py-2 outline-none focus:border-black focus:border-b-[1px] duration-100 text-secondary'></textarea>
                 </form>
+                <button className='border duration-200 cursor-pointer hover:bg-primary hover:text-white py-2 px-8 text-primary text-xl rounded-xl mt-5 font-semibold'>Submit</button>
             </div>
 
             <div className='px-0 md:px-10 py-10 md:py-0'>

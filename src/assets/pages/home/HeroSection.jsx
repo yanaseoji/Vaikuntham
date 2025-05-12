@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -9,7 +10,9 @@ const HeroSection = () => {
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             Empowering Your Vision, Elevating Your <span className="relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-1/10 after:bg-red-500">Success</span>
           </h1>
-          <button className="border-2 rounded-sm px-2 py-2 sm:px-4 border-secondary font-bold text-base sm:text-lg cursor-pointer tracking-[2px] hover:bg-black duration-200">Book appointment</button>
+          <button className="border-2 rounded-sm px-2 py-2 sm:px-4 border-secondary font-bold text-base sm:text-lg cursor-pointer tracking-[2px] hover:bg-black duration-200 capitalize">
+            <Link to='/contact'>Book Appointment</Link>
+          </button>
         </div>
       </div>
     </div>
