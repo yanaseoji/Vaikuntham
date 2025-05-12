@@ -2,7 +2,7 @@ import React from 'react'
 
 function Evolution() {
     return (
-        <div id='contactForm' className='grid grid-cols-1 md:grid-cols-2 px-5 md:px-10 mx-auto my-5 lg:my-30 py-15 lg:py-20'>
+        <div id='contactForm' className='w-[95vw] container grid grid-cols-1 md:grid-cols-2 mx-auto my-5 py-8 lg:py-10'>
 
             <div className='px-5 sm:px-10 py-5 md:py-10 border border-gray-300'>
                 <div className='cpitalize text-lg md:text-xl lg:text-2xl font-semibold text-primary mb-5'>Feel free to get in touch</div>
@@ -19,7 +19,7 @@ function Evolution() {
                     </select>
                     <textarea rows='10' placeholder='Write something...' className='md:h-auto col-span-1 lg:col-span-2 border-b border-gray-400 py-2 outline-none focus:border-black focus:border-b-[1px] duration-100 text-secondary'></textarea>
                 </form>
-                <button className='border duration-200 cursor-pointer hover:bg-primary hover:text-white py-2 px-8 text-primary text-xl rounded-xl mt-5 font-semibold'>Submit</button>
+                <button className='border duration-200 cursor-pointer hover:bg-primary hover:text-white py-2 px-8 text-primary text-sm sm:text-xl rounded-xl mt-5 font-semibold'>Submit</button>
             </div>
 
             <div className='px-0 md:px-10 py-10 md:py-0'>

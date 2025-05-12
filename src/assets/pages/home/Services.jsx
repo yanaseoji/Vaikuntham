@@ -29,12 +29,12 @@ function Services() {
     ]
 
     return (
-        <div id='services' className='container mx-auto px-4 my-5 lg:my-30 py-15 lg:py-20'>
+        <div id='services' className='w-[95vw] container mx-auto my-5 py-8 lg:py-10'>
             <div className='text-center'>
                 <span className='text-sm sm:text-base md:text-xl text-secondary font-semibold'>Services</span>
                 <div className='capitalize text-xl sm:text-2xl md:text-3xl lg:text-5xl text-primary font-bold'>Get our exclusive services</div>
             </div>
-            <div className='p-0 sm:p-10 flex flex-col justify-center gap-5'>
+            <div className='py-5 sm:py-10 flex flex-col justify-center gap-5'>
                 {/* service card start here */}
 
                 {

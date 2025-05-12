@@ -3,7 +3,7 @@ import React from 'react'
 const Procedures = () => {
 
     return (
-        <div id='services' className='container flex justify-center mx-auto my-10 py-5 lg:py-10'>
+        <div id='services' className='container flex justify-center mx-auto my-5 py-8 lg:py-10'>
             <div className="px-4 sm:px-6 lg:px-8">
                 <div className="h-full">
                     <div className="text-center mb-16">

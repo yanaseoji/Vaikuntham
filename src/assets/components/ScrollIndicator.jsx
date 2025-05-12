@@ -15,7 +15,7 @@ export default function ScrollIndicator({ sections }) {
     // function to smoothly scroll to a section
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
-        const marginTop = 10;
+        const marginTop = 30;
         const scrollToY = element.getBoundingClientRect().top + window.scrollY - marginTop;
         window.scrollTo({ top: scrollToY, behavior: "smooth" });
     }
@@ -26,7 +26,7 @@ export default function ScrollIndicator({ sections }) {
             const section = document.getElementById(sections[i]);
             if (section) {
                 const rect = section.getBoundingClientRect();
-                if (rect.top <=100 && rect.bottom >= rect.height-window.visualViewport.height) {
+                if (rect.top <=80 && rect.bottom >= rect.height-window.visualViewport.height) {
                     setActiveLink(sections[i]);
                     break;
                 }

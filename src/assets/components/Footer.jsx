@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="">
       <footer className=" bg-gray-100 w-full shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:justify-items-center">
             <div className="flex  space-x-3">
-              <div className='imglogo flex justify-center m-auto items-center  ' >
+              <div className='flex justify-center m-auto items-center  ' >
                 <img className='h-[45px]' src="/images/logo/Vaikuntham-Logo.png" alt="logo" />
               </div>
             </div>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div>
+            <div className='md:text-center'>
               <h3 className="text-primary font-semibold mb-4">Reach Us</h3>
               <div className="flex items-start space-x-2 text-secondary">
                 <p>Vaikuntham
@@ -33,10 +33,10 @@ const Footer = () => {
               Follow Us
               <div className="flex items-center text-gray-600">
                 <div className='flex items-center mt-3 gap-1 mb-4'>
-                  <Link to="https://www.facebook.com/share/16TJU8L29J/"><img className='h-[23px] mr-2' src="/facebook.png" alt="facebook"title='facebook icon' /></Link>
+                  <Link to=""><img className='h-[23px] mr-2' src="/images/common/facebook.png" alt="facebook"title='facebook-icon' /></Link>
 
-                  <Link to="https://www.youtube.com/channel/UChKJNJ1GCLX_zN393Jg6voA"><img className='h-[23px] mr-2' src="/youtube.png" alt=" youtube icon" title='youtube icon' /></Link>
-                  <Link to="https://www.instagram.com/dr.kshitejbhati/?hl=en"><img className='h-[23px] mr-2' src="/instagram.png" alt="instagram icon" title='instagram icon'/></Link>
+                  <Link to=""><img className='h-[23px] mr-2' src="/images/common/instagram.png" alt=" instagram-icon" title='youtube icon' /></Link>
+                  <Link to=""><img className='h-[23px] mr-2' src="/images/common/whatsapp.png" alt="instagramwhatsapp-icon" title='instagram icon'/></Link>
                 </div>
               </div>
             </div>

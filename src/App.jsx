@@ -10,7 +10,6 @@ import Footer from './assets/components/Footer'
 
 
 function App() {
-  const [count, setCount] = useState(0);
   
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });

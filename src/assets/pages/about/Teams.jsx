@@ -78,7 +78,7 @@ function Reviews() {
     };
 
     return (
-        <div id='team' className='container mx-auto px-4 my-5 lg:my-30 py-15 lg:py-20'>
+        <div id='team' className='w-[90vw] container mx-auto my-5 py-8 lg:py-10'>
             <div className='text-center'>
                 <div className='text-sm sm:text-base md:text-xl text-secondary font-semibold'>Teams</div>
                 <div className='capitalize text-xl sm:text-2xl md:text-3xl lg:text-5xl text-primary font-bold'>Expert team members</div>

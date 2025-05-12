@@ -63,8 +63,8 @@ function Reviews() {
     };
 
     return (
-        <div id='testimonial' className='container mx-auto px-4 my-5 lg:my-30 py-15 lg:py-20'>
-            <div className='flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16 px-0 sm:px-5'>
+        <div id='testimonial' className='w-[95vw] container mx-auto my-5 py-8 lg:py-10'>
+            <div className='flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16'>
                 <div className='w-full md:w-1/2'>
                     <div className="relative rounded-lg overflow-hidden shadow-xl transform transition-all duration-300 hover:scale-105 ">
                         <img
